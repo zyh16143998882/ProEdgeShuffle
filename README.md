@@ -20,26 +20,46 @@
     
 ### Train
 
-Train models. Our pretrained models are available [Google Drive](https://drive.google.com/file/d/1vusBIw7sd69gnyaeoWMiGaPHfkyHM5Qb/view?usp=sharing)
 
--  PU-GCN
+
+-  PU-GCN (raw)
     ```shell
     python main.py --phase train --model pugcn --upsampler nodeshuffle --k 20 
     ```
+   
+-  PU-GCN (ProEdgeShuffle)
+    ```shell
+    python main.py --phase train --model pugcn --upsampler pronodeshuffle --k 20 
+    ```
 
--  PU-Net
+-  PU-Net (raw)
     ```
     python main.py --phase train --model punet --upsampler original  
     ```
+   
+-  PU-Net (ProEdgeShuffle)
+    ```shell
+    python main.py --phase train --model punet --upsampler pronodeshuffle --k 20 
+    ```
 
--  MPU
+-  MPU (raw)
     ```
     python main.py --phase train --model mpu --upsampler duplicate 
     ```
 
--  PU-GAN
+-  MPU (ProEdgeShuffle)
+    ```shell
+    python main.py --phase train --model mpu --upsampler pronodeshuffle --k 20 
+    ```
+
+-  PU-GAN (raw)
     ```
     python main.py --phase train --model pugan --more_up 2 
+    ```
+   
+-  PU-GAN (ProEdgeShuffle)
+    ```shell
+    python main.py --phase train --model pugan --upsampler pronodeshuffle --k 20 
     ```
 
 
