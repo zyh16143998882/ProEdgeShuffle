@@ -1,0 +1,3 @@
+/data/liqiang/project/PU-GCN/evaluation_code/CMakeFiles/rebuild_cache.dir
+/data/liqiang/project/PU-GCN/evaluation_code/CMakeFiles/evaluation.dir
+/data/liqiang/project/PU-GCN/evaluation_code/CMakeFiles/edit_cache.dir
